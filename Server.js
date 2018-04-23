@@ -5,7 +5,7 @@ app.all('*',  (req, res, next) => {
     next();
 });
 
-const port = process.env.port;
+const port = process.env.PORT;
 
 app.get('/hello', (req, res, next) =>{
     res.status(200).json({
