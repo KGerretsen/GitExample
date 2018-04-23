@@ -15,7 +15,7 @@ app.get('/hello', (req, res, next) =>{
 
 
 app.listen(port, () =>{
-    console.log('The magic happens at: localhost:' + port);
+    console.log('The magic happens at:' + port);
 });
 
 module.exports = app;
