@@ -5,7 +5,7 @@ app.all('*',  (req, res, next) => {
     next();
 });
 
-const port = 8080;
+const port = process.env.port;
 
 app.get('/hello', (req, res, next) =>{
     res.status(200).json({
