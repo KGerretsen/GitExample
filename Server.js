@@ -9,7 +9,7 @@ const port = process.env.PORT;
 
 app.get('/hello', (req, res, next) =>{
     res.status(200).json({
-        'msg' : 'Hello JEDI\'s'
+        'msg' : 'Hello JEDIs'
     });
 });
 
